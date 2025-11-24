@@ -6,6 +6,7 @@
 package controller;
 
 
+import view.JoinRoomPasswordFrmNew;
 import model.User;
 import view.*;
 
@@ -16,22 +17,22 @@ import javax.swing.*;
  */
 public class Client {
     public static User user;
-    public static LoginFrm loginFrm;
-    public static RegisterFrm registerFrm;
-    public static HomePageFrm homePageFrm;
-    public static RoomListFrm roomListFrm;
-    public static FriendListFrm friendListFrm;
-    public static FindRoomFrm findRoomFrm;
-    public static WaitingRoomFrm waitingRoomFrm;
-    public static GameClientFrm gameClientFrm;
-    public static CreateRoomPasswordFrm createRoomPasswordFrm;
-    public static JoinRoomPasswordFrm joinRoomPasswordFrm;
-    public static CompetitorInfoFrm competitorInfoFrm;
-    public static RankFrm rankFrm;
-    public static GameNoticeFrm gameNoticeFrm;
-    public static FriendRequestFrm friendRequestFrm;
-    public static GameAIFrm gameAIFrm;
-    public static RoomNameFrm roomNameFrm;
+    public static LoginFrmNew loginFrm;
+    public static RegisterFrmNew registerFrm;
+    public static HomePageFrmNew homePageFrm;
+    public static RoomListFrmNew roomListFrm;
+    public static FriendListFrmNew friendListFrm;
+    public static FindRoomFrmNew findRoomFrm;
+    public static WaitingRoomFrmNew waitingRoomFrm;
+    public static GameClientFrmNew gameClientFrm;
+    public static CreateRoomPasswordFrmNew createRoomPasswordFrm;
+    public static JoinRoomPasswordFrmNew joinRoomPasswordFrm;
+    public static CompetitorInfoFrmNew competitorInfoFrm;
+    public static RankFrmNew rankFrm;
+    public static GameNoticeFrmNew gameNoticeFrm;
+    public static FriendRequestFrmNew friendRequestFrm;
+    public static GameAIFrmNew gameAIFrm;
+    public static RoomNameFrmNew roomNameFrm;
     public static SocketHandle socketHandle;
     
     public Client() {
@@ -59,48 +60,48 @@ public class Client {
         if (viewName != null) {
             switch (viewName) {
                 case LOGIN:
-                    loginFrm = new LoginFrm();
+                    loginFrm = new LoginFrmNew();
                     loginFrm.setVisible(true);
                     break;
                 case REGISTER:
-                    registerFrm = new RegisterFrm();
+                    registerFrm = new RegisterFrmNew();
                     registerFrm.setVisible(true);
                     break;
                 case HOMEPAGE:
-                    homePageFrm = new HomePageFrm();
+                    homePageFrm = new HomePageFrmNew();
                     homePageFrm.setVisible(true);
                     break;
                 case ROOM_LIST:
-                    roomListFrm = new RoomListFrm();
+                    roomListFrm = new RoomListFrmNew();
                     roomListFrm.setVisible(true);
                     break;
                 case FRIEND_LIST:
-                    friendListFrm = new FriendListFrm();
+                    friendListFrm = new FriendListFrmNew();
                     friendListFrm.setVisible(true);
                     break;
                 case FIND_ROOM:
-                    findRoomFrm = new FindRoomFrm();
+                    findRoomFrm = new FindRoomFrmNew();
                     findRoomFrm.setVisible(true);
                     break;
                 case WAITING_ROOM:
-                    waitingRoomFrm = new WaitingRoomFrm();
+                    waitingRoomFrm = new WaitingRoomFrmNew();
                     waitingRoomFrm.setVisible(true);
                     break;
 
                 case CREATE_ROOM_PASSWORD:
-                    createRoomPasswordFrm = new CreateRoomPasswordFrm();
+                    createRoomPasswordFrm = new CreateRoomPasswordFrmNew();
                     createRoomPasswordFrm.setVisible(true);
                     break;
                 case RANK:
-                    rankFrm = new RankFrm();
+                    rankFrm = new RankFrmNew();
                     rankFrm.setVisible(true);
                     break;
                 case GAME_AI:
-                    gameAIFrm = new GameAIFrm();
+                    gameAIFrm = new GameAIFrmNew();
                     gameAIFrm.setVisible(true);
                     break;
                 case ROOM_NAME_FRM:
-                    roomNameFrm = new RoomNameFrm();
+                    roomNameFrm = new RoomNameFrmNew();
                     roomNameFrm.setVisible(true);
             }
         }
@@ -110,11 +111,11 @@ public class Client {
         if (viewName != null) {
             switch (viewName) {
                 case JOIN_ROOM_PASSWORD:
-                    joinRoomPasswordFrm = new JoinRoomPasswordFrm(arg1, arg2);
+                    joinRoomPasswordFrm = new JoinRoomPasswordFrmNew(arg1, arg2);
                     joinRoomPasswordFrm.setVisible(true);
                     break;
                 case FRIEND_REQUEST:
-                    friendRequestFrm = new FriendRequestFrm(arg1, arg2);
+                    friendRequestFrm = new FriendRequestFrmNew(arg1, arg2);
                     friendRequestFrm.setVisible(true);
             }
         }
@@ -122,14 +123,14 @@ public class Client {
 
     public static void openView(View viewName, User competitor, int room_ID, int isStart, String competitorIP) {
         if (viewName == View.GAME_CLIENT) {
-            gameClientFrm = new GameClientFrm(competitor, room_ID, isStart, competitorIP);
+            gameClientFrm = new GameClientFrmNew(competitor, room_ID, isStart, competitorIP);
             gameClientFrm.setVisible(true);
         }
     }
 
     public static void openView(View viewName, User user) {
         if (viewName == View.COMPETITOR_INFO) {
-            competitorInfoFrm = new CompetitorInfoFrm(user);
+            competitorInfoFrm = new CompetitorInfoFrmNew(user);
             competitorInfoFrm.setVisible(true);
         }
     }
@@ -138,11 +139,11 @@ public class Client {
         if (viewName != null) {
             switch (viewName) {
                 case GAME_NOTICE:
-                    gameNoticeFrm = new GameNoticeFrm(arg1, arg2);
+                    gameNoticeFrm = new GameNoticeFrmNew(arg1, arg2);
                     gameNoticeFrm.setVisible(true);
                     break;
                 case LOGIN:
-                    loginFrm = new LoginFrm(arg1, arg2);
+                    loginFrm = new LoginFrmNew(arg1, arg2);
                     loginFrm.setVisible(true);
             }
         }
@@ -241,7 +242,7 @@ public class Client {
 
     public void initView() {
 
-        loginFrm = new LoginFrm();
+        loginFrm = new LoginFrmNew();
         loginFrm.setVisible(true);
         socketHandle = new SocketHandle();
         socketHandle.run();

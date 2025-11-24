@@ -3,11 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/caro-game-client/src/controller/Client.java</file>
-            <file>file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/caro-game-client/src/model/XOButton.java</file>
-            <file>file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/caro-game-client/src/view/CompetitorInfoFrm.java</file>
-            <file>file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/caro-game-client/src/view/CreateRoomPasswordFrm.java</file>
-            <file>file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/caro-game-client/src/view/FindRoomFrm.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/controller/Client.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/CompetitorInfoFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/LoginFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/CreateRoomPasswordFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/FindRoomFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/FriendListFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/controller/SocketHandle.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/FriendRequestFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/GameAIFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/GameClientFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/GameNoticeFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/HomePageFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/JoinRoomPasswordFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/RankFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/RegisterFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/RoomListFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/RoomNameFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/view/WaitingRoomFrmNew.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/CaroClient/src/model/User.java</file>
         </group>
     </open-files>
 </project-private>
